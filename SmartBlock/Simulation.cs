@@ -68,6 +68,7 @@ namespace SmartBlock
             Console.WriteLine(totalMovesMade);
         }
 
+        //This is just calculating how often the block is in one of the four corners
         public void calcLocations()
         {
             if(block.x == 0 && block.y == 0){

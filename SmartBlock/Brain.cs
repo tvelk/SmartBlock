@@ -27,7 +27,7 @@ namespace SmartBlock
             numInputNodes = inputNodeQty;
             numHiddenNodes = hiddenNodeQty;
             numOutputsNodes = outputNodeQty;
-            inputNodes = InitializeNeurons(numInputNodes, numInputs);
+            inputNodes = InitializeNeurons(numInputNodes, 1);
             hiddenNodes = InitializeNeurons(numHiddenNodes, numInputNodes);
             outputNodes = InitializeNeurons(numOutputsNodes, numHiddenNodes);
         }
